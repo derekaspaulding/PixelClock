@@ -1,0 +1,24 @@
+body {
+	box-sizing: border-box;
+}
+
+.row {
+	margin: 0;
+	padding: 0;
+	height: 16px;
+}
+
+.pixel {
+	box-sizing: border-box;
+	height: 16px;
+	width: 16px;
+	margin: 0;
+	display: inline-block;
+	border: 1px solid #2f2f2f;
+}
+
+#pixelCanvas {
+	width: 740px;
+	height: 160px;;
+	border: 1px solid;
+}
