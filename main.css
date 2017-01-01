@@ -18,7 +18,15 @@ body {
 }
 
 #pixelCanvas {
-	width: 740px;
-	height: 160px;;
+	width: 800px;
+	height: 480px;;
 	border: 1px solid;
+}
+
+button {
+	font-size: 15px;
+	width: 200px;
+	height: 35px;
+	background-color: #aaa;
+	color: #a0120a;
 }
