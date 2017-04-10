@@ -11,7 +11,7 @@ function Clock() {
 		window.clock.controller.clearAllPixels();
 		// var now = new Date(2016, 12, 31, 11, 13, 43, 500);
 		var now = new Date();
-		var hour = now.getHours() % 12;
+		var hour = now.getHours() % 13;
 		var hour2;
 		var min = now.getMinutes();
 		var sec = seconds ? now.getSeconds() : -1;
